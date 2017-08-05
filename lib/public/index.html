@@ -1,0 +1,16 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>YourWelcome Code test</title>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="text/javascript">
+      // Force `fetch` polyfill to workaround Chrome not displaying request body
+      // in developer tools for the native `fetch`.
+      self.fetch = null;
+    </script>
+    <script src="/lib/app/app.js"></script>
+  </body>
+</html>

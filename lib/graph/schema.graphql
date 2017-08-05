@@ -1,0 +1,21 @@
+# A property
+type Property {
+  # the address of the property
+  address: String
+}
+
+type Query {
+  viewer: Viewer
+}
+
+# A person who uses our app
+type Viewer {
+  # a list of properties
+  properties(
+    # the key to sort the property by, id or address
+    sortKey: String
+
+    # which way to sort, ascending, or descending
+    sortOrder: String
+  ): [Property]
+}
