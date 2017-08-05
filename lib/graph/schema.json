@@ -94,6 +94,18 @@
           "description": "A property",
           "fields": [
             {
+              "name": "id",
+              "description": "the id of the property",
+              "args": [],
+              "type": {
+                "kind": "SCALAR",
+                "name": "String",
+                "ofType": null
+              },
+              "isDeprecated": false,
+              "deprecationReason": null
+            },
+            {
               "name": "address",
               "description": "the address of the property",
               "args": [],

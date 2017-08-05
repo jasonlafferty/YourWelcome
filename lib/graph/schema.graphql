@@ -1,5 +1,8 @@
 # A property
 type Property {
+  # the id of the property
+  id: String
+
   # the address of the property
   address: String
 }
